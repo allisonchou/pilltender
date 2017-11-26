@@ -2,7 +2,7 @@
     <head><meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Home | Simple product template</title>
+        <title>Pilltender | Automated Pill Dispenser for Seniors</title>
         <meta name="description" content="Page-specific description">
         <meta name="keywords" content="Page-specific keywords">
         <link rel="shortcut icon" href="favicon.ico">
@@ -22,75 +22,115 @@
                     <i class="fa fa-bars"></i></label>
                     <img src="static/images/logo.png" alt="Pilltender" height=30% width=30%>
                     <div class="page-header__nav"><!-- $Page navigation--><nav class="page-nav">
-                        <a class="page-nav__link is-highlighted" href="#">Overview</a>
-                        <a class="page-nav__link" href="#">Features</a>
-                        <a class="page-nav__link" href="#">Video</a>
-                        <a class="page-nav__link" href="#">Team</a>
-                        <a class="page-nav__link" href="#">Documents</a>
+                        <a class="page-nav__link" href="#overview">Overview</a>
+                        <a class="page-nav__link" href="#features">Features</a>
+                        <a class="page-nav__link" href="#video">Video</a>
+                        <a class="page-nav__link" href="#team">Team</a>
+                        <a class="page-nav__link" href="#documents">Documents</a>
                     </nav>
                     </div>
                 </div>
             </header>
-            <!-- $Promo-->
-            <section class="promo"><div class="promo__slider">
-                <!-- $Slider-->
-                <div class="slider"><input class="slider__radio" id="button-one" type="radio" name="controls" checked="checked">
-                    <label class="slider__control" for="button-one"></label>
-                    <input class="slider__radio" id="button-two" type="radio" name="controls">
-                    <label class="slider__control" for="button-two"></label>
-                    <input class="slider__radio" id="button-three" type="radio" name="controls">
-                    <label class="slider__control" for="button-three"></label><ul class="slider__items">
-                        <li class="slider__item" id="slide-one"><figure class="slider__item-image">
-                            <img src="static/images/iphone.png" alt="Some picture"><figcaption>Lorem Ipsum is simply</figcaption></figure>
-                            <div class="slider__item-info">
-                                <h1 class="slider__item-title">Lorem Ipsum is simply</h1>
-                                <h2 class="slider__item-text">dummy text of the</h2>
-                                <h2 class="slider__item-text">printing &amp; typesetting</h2>
-                                <a class="slider__item-link" href="#">Sign up now</a></div></li>
-                                <li class="slider__item" id="slide-two"><figure class="slider__item-image">
-                                    <img src="static/images/iphone.png" alt="Some picture">
-                                    <figcaption>Lorem Ipsum is simply</figcaption></figure>
-                                    <div class="slider__item-info"><h1 class="slider__item-title">Lorem Ipsum is simply</h1>
-                                        <h2 class="slider__item-text">dummy text of the</h2>
-                                        <h2 class="slider__item-text">printing &amp; typesetting</h2>
-                                        <a class="slider__item-link" href="#">Sign up now</a></div></li>
-                                        <li class="slider__item" id="slide-three"><figure class="slider__item-image">
-                                            <img src="static/images/iphone.png" alt="Some picture">
-                                            <figcaption>Lorem Ipsum is simply</figcaption></figure>
-                                            <div class="slider__item-info"><h1 class="slider__item-title">Lorem Ipsum is simply</h1>
-                                                <h2 class="slider__item-text">dummy text of the</h2>
-                                                <h2 class="slider__item-text">printing &amp; typesetting</h2>
-                                                <a class="slider__item-link" href="#">Sign up now</a></div></li></ul></div></div></section>
-                                                <!-- $Services-->
-                                                <section class="services"><div class="services__inner">
-                                                    <div class="services__item services__item_info">
-                                                        <h3 class="service__title">Contrary to popular</h3>
-                                                        <p class="service__text">Lorem Ipsum is not simply random text.
-                                                            <br>It has roots in a piece</p></div>
-                                                            <div class="services__item services__item_production">
-                                                                <h3 class="service__title">Contrary to popular</h3>
-                                                                <p class="service__text">Lorem Ipsum is not simply random text.
-                                                                    <br>It has roots in a piece</p></div>
-                                                                    <div class="services__item services__item_proposal">
-                                                                        <h3 class="service__title">Contrary to popular</h3>
-                                                                        <p class="service__text">Lorem Ipsum is not simply random text.
-                                                                            <br>It has roots in a piece</p></div></div></section>
-                                                                            <!-- $Product-->
-                                                                            <section class="product">
-                                                                                <div class="product__inner">
-                                                                                    <h1 class="product__title">The Shopping cart</h1>
-                                                                                    <a class="product__card" href="#">The Shopping cart</a>
-                                                                                    <div class="product__info">
-                                                                                        <h2 class="product__slogan">Some Bullet text here</h2>
-                                                                                        <p class="product__text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                                                            <br>Lorem Ipsum has been the industry&apos;s standard dummy text ever
-                                                                                            <br>When an unknown printer took a galley of type and scrambled
-                                                                                            <br>It to make a type specimen book. It has survived not only five centuries
-                                                                                            <br>But also the leap into electronic typesetting
-                                                                                            <br>Remaining essentially unchanged. It was popularised
-                                                                                            <br>The release of Letraset sheets containing Lorem Ipsum passages</p>
-                                                                                        </div></div></section><!-- $Page footer-->
-                                                                                        <footer class="page-footer">
-                                                                                            <div class="page-footer__inner">
-                                                                                                <p class="page-footer__copyright">Designed by cssauthor.com | Coded by orlovmax.com
-                                                                                                    </p></div></footer></body></html>
+
+            <!-- Header Image-->
+            <div class="header-container">
+                <div class="header-img">
+                    <img src="static/images/pills.jpg">   
+                </div>
+                <div class="centered">Automated Pill Dispenser for Seniors with Memory Loss
+                    <hr>
+                    <div class="header-button"><a href="#overview"><div class="button-text">Learn More</div></a></div>
+                </div>
+            </div>
+
+            <!-- $Product-->
+            <section class="product">
+            <div class="product__inner">
+            <a name="overview"></a><h1 class="product__title">Overview</h1>
+
+            <p class="general-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                <br>Lorem Ipsum has been the industry&apos;s standard dummy text ever
+                <br>When an unknown printer took a galley of type and scrambled
+                <br>It to make a type specimen book. It has survived not only five centuries
+                <br>But also the leap into electronic typesetting
+                <br>Remaining essentially unchanged. It was popularised
+                <br>The release of Letraset sheets containing Lorem Ipsum passages</p>
+
+            <a name="features"></a><h1 class="product__title">Features</h1>
+                
+            <p class="general-text">Test</p>
+
+            <a name="video"></a><h1 class="product__title">Video</h1>
+            <p class="general-text">Coming soon!</p>
+
+            <a name="team"></a><h1 class="product__title">Team</h1>
+                <center>
+                <div class="imgContainer">
+                <div class="team-members">
+                    <img src="static/images/shadman.jpg" width=250px height=250px>
+                    <center><p><b>Shadman Abedin</b>
+                    <br>Senior, Computer Science</br></p></center>
+                </div>
+                </div>
+                <div class="imgContainer">
+                <div class="team-members">
+                    <img src="static/images/allison.png" width=250px height=250px>
+                    <center><p><b>Allison Chou</b>
+                    <br>Junior, Computer Science</br></p></center>
+                </div>
+                </div>
+                <div class="imgContainer">
+                <div class="team-members">
+                    <img src="static/images/celina.jpg" width=250px height=250px>
+                    <center><p><b>Celina Hipolito</b>
+                    <br>Junior, HCDE</br></p></center>
+                </div>
+                </div>
+                <div class="imgContainer">
+                <div class="team-members">
+                    <img src="static/images/will.jpg" width=250px height=250px>
+                    <center><p><b>Will Wang</b>
+                    <br>MS, HCDE</br></p></center>
+                </div>
+                </div>
+                </center>
+            
+            <a name="documents"></a><h1 class="product__title">Documents</h1>
+            <center>
+            <div class="imgContainer">
+                <div class="team-members">
+                    <img src="static/images/doc.jpg" width=175px height=175px>
+                    <center><p><b>Initial Report</b>
+                    <br>Download</br></p></center>
+                </div>
+                </div>
+                <div class="imgContainer">
+                <div class="team-members">
+                    <img src="static/images/doc.jpg" width=175px height=175px>
+                    <center><p><b>Initial Presentation</b>
+                    <br>Download</br></p></center>
+                </div>
+                </div>
+                <div class="imgContainer">
+                <div class="team-members">
+                    <img src="static/images/doc.jpg" width=175px height=175px>
+                    <center><p><b>Final Report</b>
+                    <br>Download</br></p></center>
+                </div>
+                </div>
+                <div class="imgContainer">
+                <div class="team-members">
+                    <img src="static/images/doc.jpg" width=175px height=175px>
+                    <center><p><b>Final Presentation</b>
+                    <br>Download</br></p></center>
+                </div>
+                </div>
+                </center>
+            </div></section>
+            
+            <!-- $Page footer-->
+            <br><br>
+            </br></br>
+            <footer class="page-footer">
+             <div class="page-footer__inner">
+            </div></footer></body></html>
