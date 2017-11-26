@@ -1,0 +1,11 @@
+body {
+    font-family: Tahoma, sans-serif;
+}
+
+.page-header__nav {
+    text-transform: uppercase;
+}
+
+.page-nav__link {
+    font-size: 16px;
+}
