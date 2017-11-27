@@ -36,7 +36,7 @@ body {
 }
 
 .header-button {
-    background-color: #138770; /* Green */
+    background-color: #0a7cae;
     border-radius: 12px;
     border: none;
     color: white;
@@ -59,7 +59,7 @@ body {
 }
 
 .product__title {
-    color: #0f5f4f;
+    color: #0a7cae;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
