@@ -1,5 +1,5 @@
 body {
-    font-family: Tahoma, sans-serif;
+    font-family: 'Proxima Nova', Tahoma, sans-serif;
 }
 
 .page-header__nav {
@@ -8,6 +8,18 @@ body {
 
 .page-nav__link {
     font-size: 16px;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+#content {
+  margin-top: 60px;
+  z-index:1;
 }
 
 .header-container {
@@ -22,6 +34,7 @@ body {
    width: 100%;
    overflow: hidden;
    height:90%;
+   max-height:500px;
 }
 
 
